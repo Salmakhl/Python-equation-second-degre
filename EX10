@@ -1,0 +1,14 @@
+A=float(input("tapez le premier coefficient:"))
+B=float(input("tapez le deuxieme coefficient:"))
+C=float(input("tapez le trousieme coefficient:"))
+delta=B*B-4*A*C
+if delta>0 :
+    print("les solutions sont : ",(-B-delta**0.5)/(2*A),(-B+delta**0.5)/(2*A) ) 
+elif delta==0:
+    print("la solution est:",-B/(2*A))
+elif delta<0 :
+    print("l'équation n'a pas de solution réel .")
+    
+
+
+               
